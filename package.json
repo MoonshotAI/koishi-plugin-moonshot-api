@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-moonshot-api",
   "author": "lychees",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A chat robot that calls the moonshot API and supports agents.",
   "repository": {
     "type": "git",
