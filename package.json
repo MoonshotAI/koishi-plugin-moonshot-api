@@ -1,0 +1,39 @@
+{
+  "name": "koishi-plugin-moonshot-api",
+  "author": "lychees",
+  "version": "0.0.1",
+  "description": "A chat robot that calls the moonshot API and supports agents.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonshotAI/koishi-plugin-moonshot-api"
+  },
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT License",
+  "scripts": {},
+  "keywords": [
+    "moonshot",
+    "koishi",
+    "plugin",
+    "ai",
+    "generate"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.5",
+    "koishi-plugin-puppeteer": "^3.4.11"
+  },
+  "koishi": {
+    "browser": true,
+    "description": {
+      "en": "Moonshot API",
+      "zh": "一个调用官方 Moonshot API 的机器人，支持代理。"
+    }
+  },
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
+}
